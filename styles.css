@@ -1,0 +1,272 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    height: 100vh;
+}
+
+.header{
+
+    height: 20vh;
+    background-color: #1F2937;
+    display: flex;
+
+}
+.navigation{
+ display: flex; 
+
+}
+ul{
+    margin-left: 500px ;
+    margin-top: 50px;
+    
+}
+ul li{
+
+    list-style: none;
+    text-align: right;
+    display: inline;
+    margin: 20px;
+    
+}
+
+.nav-item a{
+
+    color: white;
+    text-decoration: none;
+   
+}
+img{
+    
+    height: 20vh;
+    margin-right: 450px;
+
+}
+.intro{
+    height: 32vh;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+
+}
+.intro-serna{
+    
+    padding: 50px;
+    font-size: 1.5rem;
+    
+
+}
+.welcome{
+   
+   width: 400px;
+}
+span{
+    display: block;
+    font-size: 2.5rem;
+    color: pink;
+    margin-bottom: 30px;
+}
+.serna-profile{
+    margin-left: 700px;
+    height: 40vh;
+
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.info{
+
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    
+
+}
+
+.box-1 img, .box-2 img, .box-3 img, .box-4 img{
+
+    height: 100px;
+    border: blue;
+    margin: 30px;
+    border-radius: 30px;
+
+}
+
+.box-1 img:hover, .box-2 img:hover, .box-3 img:hover, .box-4 img:hover{
+    cursor: pointer;
+
+    height: 150px;
+    
+}
+.box-1 span, .box-2 span, .box-3 span, .box-4 span{
+
+    display: block;
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+   
+}
+.quote{
+
+    height: 25vh;
+    background-color: #E5E7EB;
+    padding: 50px;
+    font-weight: 600;
+
+}
+.quote-author{
+    font-size: 1.4rem;
+    color: black;
+    display: block;
+    margin-top: 30px;
+    font-style: italic;
+}
+.sign-up{
+
+    height: 20vh;
+
+
+}
+.know-me{
+    background: pink;
+ 
+    margin: 50px;
+    margin-bottom: 50px;
+    height: 150px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+.footer{
+
+    margin-top: 50px;
+    height: 7vh;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+@media(max-width: 1000px){
+
+    html{
+        overflow-x: hidden;
+    }
+    .header{
+
+        height: 20vh;
+        background-color: #1F2937;
+        display: flex;
+    
+    }
+    .navigation{
+     display: flex; 
+    
+    }
+    ul{
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+    ul li{
+    
+        list-style: none;
+        text-align: right;
+        display: inline;
+        margin: 20px;
+        
+    }
+    
+    .nav-item a{
+    
+        color: white;
+        text-decoration: none;
+       
+    }
+    img{
+        
+        height: 18vh;
+        margin-right: 250px;
+    
+    }
+    .intro{
+        height: 32vh;
+        background-color: #1F2937;
+        color: white;
+        display: flex;
+    
+    }
+    .intro-serna{
+        
+        padding: 50px;
+        font-size: 1.5rem;
+        
+    
+    }
+    .welcome{
+       
+       width: 400px;
+    }
+    span{
+        display: block;
+        font-size: 2.5rem;
+        color: pink;
+        margin-bottom: 30px;
+    }
+    .serna-profile{
+        margin-left: 80px;
+        height: 30vh;
+    
+    }
+    h2{
+        text-align: center;
+        margin-top: 30px;
+    }
+    .info{
+    
+        height: 35vh;
+        display: flex;
+        
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        
+    
+    }
+    .box-1 img, .box-2 img, .box-3 img, .box-4 img{
+    
+        height: 100px;
+        border: blue;
+        margin: 30px;
+        border-radius: 30px;
+    
+    }
+    
+    .box-1 img:hover, .box-2 img:hover, .box-3 img:hover, .box-4 img:hover{
+        cursor: pointer;
+    
+        height: 90px;
+    }
+    .box-1 span, .box-2 span, .box-3 span, .box-4 span{
+    
+        display: block;
+        font-size: 1.5rem;
+        color: black;
+        margin-bottom: 30px;
+        text-align: center;
+    
+    }
+
+}
